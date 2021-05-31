@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Milliano</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Da+2|Gotu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0  shrink-to-fit=no">
+    <meta name="description" content="Adeleye Taiwo Hassan (MILLIANOLAT)">
+    <meta name="keywords" content="MillianoLat portfolio, portfolio, adeleye taiwo resume">
+    <meta name="author" content="Adeleye Taiwo Hassan" />
+    <meta charset=" UTF-8 ">
+    <meta name="viewport " content="width=device-width, initial-scale=1 ">
+</head>
+
+<body>
+    <div id="scrolltoHome" class="containerFullWidth">
+        <!-- Backgound and Nav Section -->
+        <nav class="navContainer">
+            <div class="homeLink">
+                <a href="./index.html">
+                    <h2>Taiwo</h2>
+                </a>
+            </div>
+            <!-- javaScript selector id = nav -->
+            <nav id="nav" class="navLinks">
+                <ul>
+                    <li><a class="active" href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a onclick="scrollToView('scrollToServices')">Services</a></li>
+                    <li><a href="./portfolio.html">Portfolio</a></li>
+                    <li><a onclick="scrollToView('scrollToResume')">Resume</a></li>
+                    <li><a onclick="scrollToView('scrollToBlogs')">Blogs</a></li>
+                    <li><a onclick="scrollToView('scrollToContact')">Contact</a></li>
+                    <li><a id="closebtn" onclick="closeNav()">&times;</a></li>
+                </ul>
+            </nav>
+            <!-- javaScript display selector id = navIcon -->
+            <span id="navIcon" class="openNav icon-menu2" style="color : green;" onclick="openNav()">menu
+          </span>
+        </nav>
+    </div>
+    <div id="homeBg" class="homeBackground"></div>
+
+    <!-- Home Text section -->
+    <div class="introText">
+
+        <div>
+            <h2 onclick="scrollToView()">Hello, I'm <strong>Adeleye Taiwo</strong></h2>
+        </div>
+        <div>
+            <p>A Web Developer, Philiantropist, Movie lover, And the
+                <span class="big">Founder</span> Of <mark><a href="http://www.google.com">Milliano Drycleaning Services.</a></mark></p>
+        </div>
+        <div>
+            <button class="button" type="button" name="button"><a onclick="scrollToView('scrollToMoreOnMe')">More On Me</a></button>
+        </div>
+
+    </div>
+
+    </div>
+    <div class="container">
+        <!-- About Me Section -->
+        <div id="scrollToMoreOnMe" class="aboutMe">
+            <div class=" sideImg">
+                <img src="./images/ty.jpg" alt="image">
+            </div>
+            <div class="aboutMeContent">
+                <div class="holder">
+
+                    <div class=" liner rel aboutMeHeader">
+                        <h1>
+                            About
+                            <strong class="highlight">Me</strong>
+                        </h1>
+                    </div>
+                    <div class="">
+                        <p class="descriptionText">I'm Adeleye Taiwo Haassan, computer science student of FOUNTAIN UNIVERSITY.
+                        </p>
+                        <p class="descriptionText">I specialize in HTML and CSS.
+                        </p>
+                        <span>
+                  <button onclick="scrollToView('scrollToContact')" class="smallButton" type="button" name="button">Hire Me</button>
+                  <button title="Download CV" class="smallButton2" type="button" name="button">
+                      <a href="./images/b.jpg">Preview Cv</a>
+                  </button>
+                </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skill section -->
+
+    <div class="container">
+        <div class=" mySkills">
+            <div class="col1">
+                <h1>My <span class="highlight">Skills</span></h1>
+            </div>
+            <div class="skillRange">
+                <div>
+                    <label>Visual Basic 10%</label>
+                    <progress value="25" max="100"></progress>
+                </div>
+                <div>
+                    <label>HTML 58%</label>
+                    <progress value="58" max="100"></progress>
+                </div>
+                <div>
+                    <label>CSS 50%</label>
+                    <progress value="50" max="100"></progress>
+                </div>
+                <div>
+                    <label>JavaScript 3%</label>
+                    <progress value="10" max="100"></progress>
+                </div>
+                <div id="skillViewMore">
+                    <button class="button" type="button" name="button"><a href="./about.html">View More</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section / product list -->
+
+    <div class=" bigHeader">
+        <h1>
+            Latest &
+            <span class="highlight">Greatest</span>
+        </h1>
+    </div>
+
+    <div class="container">
+        <div class="productLists">
+            <div class=" productImage">
+                <img src="./images/a.jpg" alt="Miliano web">
+            </div>
+            <div class=" productDescription">
+                <div class='liner rel'>
+                    <div>
+                        <h1 class="heading">Miliano<span class="highlight block">Dry Cleaners</span></h1>
+                    </div>
+                    <div>
+                        <p class="descriptionText">
+                            A dry cleaning service company website
+                        </p>
+                        <div>
+                            <button class="button" type="button" name="button">Visit Site</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="productLists2">
+            <div class=" order2 productImage2">
+                <img src="./images/b.jpg" alt="Jamie">
+            </div>
+            <div class=" order1 productDescription2">
+                <div class='rel liner'>
+                    <div>
+                        <h1 class="heading">Expert<span class="highlight">Algo</span></h1>
+                    </div>
+                    <div>
+                        <p class="descriptionText">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione nemo quasi assumenda voluptatem deleniti praesentium
+                        </p>
+                        <div>
+                            <button title="Download Mobile App" class="button" type="button" name="button"><a href="#">Download App</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class='center'>
+        <button class="button" type="button" name="button"><a href="./Portfolio.html">View More</a></button>
+    </div>
+
+    <!-- My Resume Section -->
+
+    <div id="scrollToResume" class=" liner rel myResumeSectionHeader">
+        <div class="aboutMeHeader">
+            <h1>
+                My
+                <strong class="highlight">Resume</strong>
+            </h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class=" resume-col-heading aboutMeHeader">
+            <h1>Education</h1>
+        </div>
+        <div class="grid">
+
+            <div class=" col-content">
+                <div class="col-date">
+                    <p>Oct 2019 - PRESENT</p>
+                </div>
+                <div class="col-content-heading aboutMeHeader">
+                    <h2>BSc Computer Science Degree</h2>
+                </div>
+                <div class="descriptionText">
+                    <p>
+                        <strong><a title="Visit Fountain University" href="Convenant">Fountain University</a>
+                        </strong> is a muslim school
+                    </p>
+                </div>
+                <div>
+                    <p>FOUNTAIN UNIVERSITY</p>
+                </div>
+            </div>
+
+            <div class=" col-content">
+                <div class="col-date">
+                    <p>June 2021 - PRESENT</p>
+                </div>
+                <div class="col-content-heading aboutMeHeader">
+                    <h2>Web Developer Certified</h2>
+                </div>
+                <div class="descriptionText">
+                    <p>
+                        <strong><a title="Visit Fcc" href="https://www.freecodecamp.org/">FreeCodeCamp</a></strong> is a remote Boot-Camp and majors in software development and current techs.
+                    </p>
+                </div>
+                <div>
+                    <p>FreeCodeCamp</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class=" resume-col-heading aboutMeHeader">
+            <h1>Experience</h1>
+        </div>
+        <div class="grid">
+
+            <div class=" col-content">
+                <div class="col-date">
+                    <p>APRIL 2021 - PRESENT</p>
+                </div>
+                <div class="col-content-heading aboutMeHeader">
+                    <h2>Freelance Web Developer</h2>
+                </div>
+                <div class="descriptionText">
+                    <p>electus cum ipsum iusto, dolorum sit suscipit ipsa. electus cum ipsum iusto, dolorum sit suscipit ipsa.</p>
+                </div>
+            </div>
+
+            <div class=" col-content">
+                <div class="col-date">
+                    <p>MARCH 2021 - PRESENT</p>
+                </div>
+                <div class="col-content-heading aboutMeHeader">
+                    <h2>learn At Udemy.com</h2>
+                </div>
+                <div class="descriptionText">
+                    <p> <strong><a title="Visit Udemy" href="http://www.Udemy.com">Udemy</a></strong> is a website that allows developers to learn both FontEnd and BackEnd program and other course</p>
+                </div>
+                <div>
+                    <p><strong><a href="https://www.Udemy.com">Visit udemy</a></strong></p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="clearFloats"></div>
+
+    <div id="scrollToServices" class=" bigHeader">
+        <h1>
+            Techs &
+            <span class="highlight">Services</span>
+        </h1>
+    </div>
+
+    <!-- skill list in card views, or should i say card-like views-->
+
+    <div class="cardViews">
+        <div class="cardHeadings">
+            <div>
+                <h1 class="heading headerUnderline">Web <span class="highlight">Dev</span></h1>
+            </div>
+        </div>
+        <div class="cardLists">
+            <div class="cardWrapper">
+                <div class=" cardItem">
+                    <div class="cardImage" style="background-image : url(./images/c.jpg)"></div>
+                    <div class="cardText">
+                        <div class="logoWrapper">
+                            <img src="./images/skillsIcons/html.svg" alt="image">
+                        </div>
+                        <div class="subtitle">
+                            HTML
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cardWrapper">
+                <div class=" cardItem">
+                    <div class="cardImage" style="background-image : url(./images/d.jpg)"></div>
+                    <div class="cardText">
+                        <div class="logoWrapper">
+                            <img src="./images/skillsIcons/css.svg" alt="image">
+                        </div>
+                        <div class="subtitle">
+                            CSS
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cardWrapper">
+                <div class=" cardItem">
+                    <div class="cardImage" style="background-image : url(./images/e.jpg)"></div>
+                    <div class="cardText">
+                        <div class="logoWrapper">
+                            <img src="./images/skillsIcons/javascript.svg" alt="image">
+                        </div>
+                        <div class="subtitle">
+                            JAVASCRIPT AND JQUERY
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--end section -->
+    </div>
+
+    <!-- blog section begins here  -->
+
+    <div id="scrollToBlogs" class="blogSection">
+        <div class=" aboutMeHeader">
+            <h1>
+                My
+                <strong class="highlight">Blogs</strong>
+            </h1>
+        </div>
+    </div>
+
+    <div class="blogContainer container">
+        <div class="blogContentWrapper">
+            <div class=" blogContentHolder">
+                <div class="blogImage">
+                    <img src="./images/g.jpg" alt="blog post">
+                </div>
+                <div>
+                    <h3>
+                        <a class="blogHeader" href="#">rerum deserunt repellendus placeat</a>
+                    </h3>
+                </div>
+                <div>
+                    <p class="descriptionText">
+                        rerum deserunt repellendus placeat laboriosam pariatur qui reiciendis, distinctio dicta facere vitae tempora neque tempore porro ducimus.
+                    </p>
+                </div>
+            </div>
+
+            <div class=" blogContentHolder">
+                <div class="blogImage">
+                    <img src="./images/b.jpg" alt="blog post">
+                </div>
+                <div>
+                    <h3>
+                        <a class="blogHeader" href="#">Best JavaScript Algorithm</a>
+                    </h3>
+                </div>
+                <div>
+                    <p class="descriptionText">
+                        rerum deserunt repellendus placeat laboriosam pariatur qui reiciendis, distinctio dicta facere vitae tempora neque tempore porro ducimus.
+                    </p>
+                </div>
+            </div>
+
+            <div class=" blogContentHolder">
+                <div class="blogImage">
+                    <img src="./images/c.jpg" alt="blog post">
+                </div>
+                <div>
+                    <h3>
+                        <a class="blogHeader" href="#">Getting Your Game Up As A Junior Developer</a>
+                    </h3>
+                </div>
+                <div>
+                    <p class="descriptionText">
+                        rerum deserunt repellendus placeat laboriosam pariatur qui reiciendis, distinctio dicta facere vitae tempora neque tempore porro ducimus.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="center">
+            <button class="button" type="button" name="button">More Blogs</button>
+        </div>
+        <!-- Blog Section Ends here...  -->
+    </div>
+
+    <!-- contact section -->
+
+    <div id="scrollToContact" class="formWrapper">
+        <div class=" left">
+            <div>
+                <h1>Get In Touch</h1>
+            </div>
+            <div>
+                <p class=" contactText">
+                    Wanna work with me? You can reach me via the links below. Thanks.
+                </p>
+            </div>
+            <div>
+                <ul class=" getInTouchList">
+                    <li>
+                        <h3><span class=" icon-phone icon"></span><a href="tel:">+2348134415685</a></h3>
+                    </li>
+                    <li>
+                        <h3><span class=" icon-mail icon"></span><a href="mailto:milliano@gmail.com">adeleyetaiwo052@gmail.com</a></h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <form class=" messageForm">
+            <div class="nameAndEmailForm">
+                <div>
+                    <h1>Write Me</h1>
+                </div>
+                <div><input required type="text" name="name" placeholder="Your Name"></div>
+                <div><input required type="email" name="mail" placeholder="Your E-Mail"></div>
+            </div>
+            <div class="message-subject-form">
+                <div>
+                    <input required type="text" name="subject" value="" placeholder="Subject">
+                </div>
+                <div>
+                    <textarea required name="message" rows="8" cols="80" placeholder="Your Message..."></textarea>
+                </div>
+                <div>
+                    <button class="button" type="submit">SEND</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+
+    <!-- Footer Section -->
+
+    <footer>
+        <div class="footerContentHolder">
+            <div class="footerContent author">
+                <div class="footerHeader">
+                    <h4>About</h4>
+                </div>
+                <div>
+                    <p>A Web Developer, Philiantropist, Movie lover, And the
+                        <span class="big">Founder</span> Of <mark><a href="http://www.google.com">Milliano Drycleaning Services.</a></mark></p>
+                </div>
+                <!-- col-1 ends-->
+            </div>
+
+            <!-- col-2 starts  -->
+            <div class="footerContent">
+                <div class="footerHeader">
+                    <h4>Media Links</h4>
+                </div>
+                <div>
+                    <ul>
+                        <li class="footerSocialLinks">
+                            <a target="_blank" class="footerTexts" title="Twitter" href="https://twitter.com/"><span class="icon-twitter"></span>Twitter</a>
+                        </li>
+                        <li class="footerSocialLinks">
+                            <a target="_blank" class="footerTexts" title="GitHub" href="https://github.com/"><span class="icon-github2"></span>GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- col-3 starts -->
+            <div class="footerContent">
+                <div class="footerHeader">
+                    <h4>Quick Links</h4>
+                </div>
+                <div>
+                    <ul>
+                        <li><a class="footerTexts" href="./portfolio.html">Portfolio</a></li>
+                        <li><a class="footerTexts" onclick="scrollToView('scrollToBlogs')">Blogs</a></li>
+                        <li><a class="footerTexts" onclick="scrollToView('scrollToServices')">Services</a></li>
+                        <li><a class="footerTexts" onclick="scrollToView('scrollToContact')">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- col-3 ends-->
+            </div>
+
+            <!-- col-4 starts -->
+            <div class="footerContent">
+                <div class="footerHeader">
+                    <h4>Have A Question ?</h4>
+                </div>
+                <div>
+                    <div class="connect">
+                        <ul>
+                            <li>
+                                <a class="icon-mail" title="Mail Me" href="mailto:adeleyetaiwo052@gmail.com"></a>
+                                <span class="footerTexts">milliano</span>
+                            </li>
+                            <li>
+                                <a class="icon-phone" title="Call Me" href="tel:"></a>
+                                <span class="footerTexts">+234</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- col-4 ends-->
+            </div>
+
+        </div>
+        <div class="Copyright center">Copyright &copy;
+            <script>
+                document.write(new Date().getFullYear());
+            </script>
+            | All Rights Reserved.
+        </div>
+
+    </footer>
+
+    <div>
+        <span onclick="scrollToView('scrolltoHome')" class="icon-arrow-up2 pageTop"></span>
+    </div>
+
+    <script src="./javaScript/porto.js"></script>
+</body>
+</body>
+
+</html>
